@@ -1,0 +1,89 @@
+1 - Boas práticas na programação:
+    1) Documentação:
+        /** 
+        * Descrição do código 
+        * @author define o autor do código
+        * @link define um link (site, repositório do github) 
+        */
+    2) Mandamentos do Código Limpo:
+        Não abusarás do uso dos comentários no código 
+    3) Nomeação:
+        - Não usaras caracteres especiais, espaço e acentos
+        - Apenas iniciar com caixa alta classes modelo, todo o resto ( variáveis, funções devem ter apenas letras minúscula)
+        - Usar nomes que contextualizem a situação-problema 
+    4) Alinhamento ( identação do código )
+
+    5) Quanto menor o código melhor!
+
+_____________________________________________________________________
+Comandos de terminal básicos:
+
+    node -v exibe a versão do node ( javascript )
+    cd /caminho entra em algum caminho ( = comandos básicos de qualquer terminal bruh)
+    cd .. volta um nível acima
+    cls,clear limpa o a tela terminal
+    node /arquivo.js executa um arquivo javascript
+    dir lista os arquivos do caminho atual 
+    key:up repete o ultimo comando usado 
+    pwd lista o caminho atual
+_____________________________________________________________________
+Dicas no VSCode:
+    Combinação de teclas <alt><shift><f> alinha o código ( beautify )
+    VS Code Produtividade Infinita: (repositório)
+        https://github.com/arkenzera-main/VS-Code-Produtividade-Infinita/tree/master
+
+
+
+
+
+
+
+
+
+
+
+
+_____________________________________________________________________
+Javascript:
+    Funciona com sentenças e não linhas de código
+    ; é opcional 
+    console.clear() limpa a tela do console 
+    console.log() escreve no console 
+    // Comentários de linha
+    ' e " não se dão bem juntas! não misture-as!!!
+    Dica:   Em strings use " 
+            Em bibliotecas e caminhos use '
+
+    Observações:
+        Regra de precedência matemática
+         % não calcula a porcentagem! calcula o resto da divisão 
+             Exemplo:
+             12/5 = 2 e sobra 2, ou seja 12%5 = 2
+    Operadores lógicos:
+    Dica: https://professorjosedeassis.github.io/simulador/
+
+_____________________________________________________________________
+Estudo das variáveis:
+    - String (texto)
+    - Numéricas (números)
+    - Booleana (verdadeiro ou falso)
+Observação:
+    No Javascript as variáveis são dinamicamente tipadas (os valores são automaticamente assumidos)
+    const (define uma constante)
+    var (define uma variável) (está em desuso e não deve ser usado!!!)
+    let (define uma variável)
+_____________________________________________________________________
+Git e GitHub
+Material de apoio: https://www.youtube.com/watch?v=FF1f4bKYhoo&list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj
+
+Configurando o git:
+Instalar o git, depois:
+    Observação: Digitar os comandos apenas na raiz do repositório
+    Abrir o bash:
+        git config --global user.name "Bruno P. Romero"
+        git config --global user.email "brunopoliti8@gmail.com"
+        git clone link_do_repositório (clona o determinado repositório localmente(faz o download))
+        git status (verifica o status do repositório em relação ao GitHub)
+        git add . (trackeia todas as alterações no caminho atual)
+
+    
