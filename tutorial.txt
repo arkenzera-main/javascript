@@ -67,6 +67,12 @@ Estudo das variáveis:
     - String (texto)
     - Numéricas (números)
     - Booleana (verdadeiro ou falso)
+    Tipagem dinâmica:
+        No Javascript o tipo string é definido quando o conteúdo da variável entre aspas "Hello World!"
+        Variáveis numéricas podem ser números inteiros e não inteiros 
+            Obs: Vírgula é um caractere e não um número! Se necessário converter o input de "," para "." usando .replace(",",".") 
+            Na entrada de dados numéricos via terminal ou formulário torna-se necessário a conversão para números
+                Quem faz isso no Javascript é a classe Number
 Observação:
     No Javascript as variáveis são dinamicamente tipadas (os valores são automaticamente assumidos)
     const (define uma constante)
@@ -86,5 +92,29 @@ Instalar o git, depois:
         git status (verifica o status do repositório em relação ao GitHub)
         git add . (trackeia todas as alterações no caminho atual)
         git commit -m "fundamentos" (commita algo)
+_____________________________________________________________________
+Node - Plataforma para uso do Javascript fora do browser 
+    Usa o motor V8 do Google Chromium
+        Usa bibliotecas C / C++ 
+    Pacotes gerenciados pelo NPM (Node Packager Manager)
+        npm ls lista pacotes
+        npm install instala um pacote 
+        npm remove remove algum pacote
+    Pacote = Módulo = Biblioteca
+        Para usar um pacote é necessário fazer a importação do mesmo no inicio do código ( Logo no cabeçalho )
+_____________________________________________________________________
+Algoritmo: Recipe
+    Exemplo 1 - Calcular a média entre dois números
+        Média = (a+b)/2
+        Precisa-se de três variáveis para realizar o cálculo:
+            nota1, nota2 e média
+        Por conseguinte, temos que precisa-se de duas entras: Nota 1 e nota 2
+        Lembrando sempre de regras de precedência matemática ( PEMDAS )
+        Por fim, temos que o output é a média entre os dois números inputados pelo usuário 
+
+
+
+
+
 
     
