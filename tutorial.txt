@@ -111,6 +111,18 @@ Algoritmo: Recipe
         Por conseguinte, temos que precisa-se de duas entras: Nota 1 e nota 2
         Lembrando sempre de regras de precedência matemática ( PEMDAS )
         Por fim, temos que o output é a média entre os dois números inputados pelo usuário 
+    Algoritmo:
+        Exemplo 2 - Desenvolver um app modo console para cálculo de porcentagem:
+            10% de 200 = 20
+            x       y  = valor
+            y ---------- 100%
+            valor ------ x
+            valor * 100 = y * x
+            valor = (y*x)/100
+            //variaveis = x,y,valor
+            //input = x,y
+            //operação = (y*x)/100
+            //output = valor
 
 
 
