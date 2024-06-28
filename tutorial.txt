@@ -123,6 +123,14 @@ Algoritmo: Recipe
             //input = x,y
             //operação = (y*x)/100
             //output = valor
+    Exercício1:
+        Desenvolver um app modo console para calcular o valor do desconto:
+            Exemplo:
+                Valor total = 200
+                Desconto = 5%
+                Total com desconto = 200 - 5% do valor total = 190 
+    Exercício2:
+        Desenvolver um app modo console para conversão de moeda (Real para Euro)
 
 
 
