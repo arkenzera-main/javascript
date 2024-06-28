@@ -13,4 +13,4 @@ bi2 = Number(input.question("Insira sua nota do segundo bimestre:"))
 bi3 = Number(input.question("Insira sua nota do terceiro bimestre:"))
 bi4 = Number(input.question("Insira sua nota do quarto bimestre:"))
 mediafinal = (bi1+bi2+bi3+bi4)/4
-console.log(`Sua média final é ${bi1} + ${bi2} + ${bi3} + ${bi4} divido por 4, o resultado é ${mediafinal}`)
+console.log(`O resultado final da sua média é ${mediafinal}`)
