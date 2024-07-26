@@ -131,10 +131,18 @@ Algoritmo: Recipe
                 Total com desconto = 200 - 5% do valor total = 190 
     Exercício2:
         Desenvolver um app modo console para conversão de moeda (Real para Euro)
+_____________________________________________________________________
+Estruturas de Controle
+if, if-else ( encadeamento/aninhamento else-if)switch-case
 
-
-
-
+if (condição) { 
+    //condição verdadeira
+} else {
+    //condição falsa
+}
+Observações:
+    1) Uma resposta sempre será exibida, independendo da condição
+    2) Não existe condição verdadeira e falsa ao mesmo tempo ( condição de schordinger )
 
 
     
