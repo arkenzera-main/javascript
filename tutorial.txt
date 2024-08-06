@@ -133,7 +133,7 @@ Algoritmo: Recipe
         Desenvolver um app modo console para conversão de moeda (Real para Euro)
 _____________________________________________________________________
 Estruturas de Controle
-if, if-else ( encadeamento/aninhamento else-if)switch-case
+if, if-else ( encadeamento/aninhamento else-if) switch-case
 
 if (condição) { 
     //condição verdadeira
@@ -144,5 +144,28 @@ Observações:
     1) Uma resposta sempre será exibida, independendo da condição
     2) Não existe condição verdadeira e falsa ao mesmo tempo ( condição de schordinger )
 
+Exemplo de uso da estrututa else if 
+    No exemplo cálculo da média, estabelecer as seguintes condições:
+        1) Se a média estiver < 2 = Reprovado
+        2) Se a média estiver entre (2 e 5( = Recuperação
+        3) Se a média estiver > 5 = Aprovado
+    Resumindo:
+        If(condição 1 ){
+            condição 1 verdadeira
+        } else if (condição 2){
+            condição 2 verdadeira
+        } else if (condição 3){
+            condição 3 verdadeira
+        } else {
+            nenhuma das condições anteriores verdadeiras
+        }
+    Obs: Else final não é obrigatório 
+    
+Exercício3:
+    No Brasil, existem três condições sobre o cidadão em relação ao direito a voto:
+        < 16 = Proibido
+        > 16,17 e > 70 = Facultativo
+        > 18 e < 70 = Obrigatório
+    Desenvolver um aplicativo em JS no console para verificar o direito a voto de um cidadão
 
     
