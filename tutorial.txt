@@ -167,5 +167,26 @@ Exercício3:
         > 16,17 e > 70 = Facultativo
         > 18 e < 70 = Obrigatório
     Desenvolver um aplicativo em JS no console para verificar o direito a voto de um cidadão
-
-    
+_____________________________________________________________________
+Estrutura de controle condicional switch-case
+    Sintaxe:
+        variavel (número inteiro ou letra)
+        switch(variavel){
+            case:1
+                código se o valor da variável for igual a 1
+                break
+            case:2
+                código se o valor da variável for igual a 2
+                break
+            case:N
+                código se o valor da variável for igual a N
+                break
+            default:
+                código caso o valor da variável for diferente de 1, 2 ou N
+                break
+        }
+_____________________________________________________________________
+Exercício4:
+    Desenvolver um app em JS no console que faça o sorteio de um jogo de dado
+    e associar ao resultado a imagem da face de um dado correspondente
+        
