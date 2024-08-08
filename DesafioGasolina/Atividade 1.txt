@@ -1,4 +1,0 @@
-Desenvolver um app usando JS (modo console) de uma calculadora indicada pelo professor.
-
-Fazer o desafio da hora do código e publicar o diploma em alguma rede social (preferencialmente linkedIn)
-https://hourofcode.com/code
