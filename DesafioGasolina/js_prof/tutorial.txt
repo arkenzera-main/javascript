@@ -100,7 +100,5 @@ git add . (adiciona todas as alterações)
 git commit -m "descrição das alterações"
 
 
-Token : 
-
 
 
