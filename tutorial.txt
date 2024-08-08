@@ -86,8 +86,8 @@ Configurando o git:
 Instalar o git, depois:
     Observação: Digitar os comandos apenas na raiz do repositório
     Abrir o bash:
-        git config --global user.name "Bruno P. Romero"
-        git config --global user.email "brunopoliti8@gmail.com"
+        git config --global user.name "nome de usuario"
+        git config --global user.email "email"
         git clone link_do_repositório (clona o determinado repositório localmente(faz o download))
         git status (verifica o status do repositório em relação ao GitHub)
         git add . (trackeia todas as alterações no caminho atual)

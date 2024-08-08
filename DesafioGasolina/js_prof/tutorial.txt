@@ -4,7 +4,7 @@ Boas práticas na programação:
 /**
  * Descrição do código (o que faz?)
  * @author Nome do autor do código
- * @link https://...
+ * 
  */
 
 2) Código limpo
