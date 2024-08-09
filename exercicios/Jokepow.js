@@ -54,7 +54,6 @@ switch (jogador) {
             console.log("O jogo empatou!".yellow)
             
         } else if (computador === 3){
-            console.log("Você perdeu!".red)
             console.log("              Você perdeu!".red)
             console.log("      NO!                          MNO!".red)
             console.log("     MNO!!         [NBK]          MNNOO!".red)

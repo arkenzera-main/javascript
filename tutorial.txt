@@ -189,4 +189,16 @@ _____________________________________________________________________
 Exercício4:
     Desenvolver um app em JS no console que faça o sorteio de um jogo de dado
     e associar ao resultado a imagem da face de um dado correspondente
+_____________________________________________________________________
+Estruturas de controle - Laços de repetição 
+for
+while
+do-while
+
+for:
+    Estrutura de repetições finitas (determinada)
+    for (let i=1; condição; incremento/decremento){
+        início; repetir enquanto condição verdadeira; i++ ou i--
+    }
+    Obs: A variável declarada dentro da estrutura deve ser um número inteiro 
         
