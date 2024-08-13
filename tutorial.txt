@@ -201,4 +201,22 @@ for:
         início; repetir enquanto condição verdadeira; i++ ou i--
     }
     Obs: A variável declarada dentro da estrutura deve ser um número inteiro 
-        
+
+while e do-while:
+    Estrutura de repetições infinitas (indeterminada)
+    while:
+        while (condição){
+             analisa a condição e executa o código enquanto a condição for verdadeira
+        }
+    do-while:
+        do-while (condição){
+            sempre executa o código uma vez, independendo da condição - depois se comporta como while
+        }
+
+Exercício6:
+    Desenvolver um aplicativo para calcular a tabuada, semelhante ao exemplo da aula usando a estrutura
+    while no lugar do for
+_____________________________________________________________________
+Função:
+    Uma função ( ou método ) consiste em automatizar uma tarefa para que não exista a necessidade de 
+    escrever um mesmo código com o mesmo fim mais de uma vez.
