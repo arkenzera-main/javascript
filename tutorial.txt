@@ -244,3 +244,26 @@ Atividade 3 (Avaliação em dupla)
                 5- Calcular a porcentagem 
             Digite a opção desejada: 3
             A multiplicação de 10 x 2 = 20
+_____________________________________________________________________
+POO:
+    - Abstração (classe modelo)
+    - Herança
+    - Polimorfismo
+
+    - Encapsulamento (segurança)
+
+    Obs: Para criar uma classe modelo usamos uma letra maiúscula no início
+
+    Obs: No Javascript a classe modelo é uma função
+
+    Obs: Sempre que existir a palavra new um objeto é criado (instanciado)
+
+    Obs: O ponto é usado para acessar os recursos (atributos e métodos) da classe modelo
+
+    Obs: Polimorfismo - para reescrever um método é necessário usar o mesmo nome do método original  
+
+_____________________________________________________________________
+Atividade 4: Avaliação individual --- Ter como base https://professorjosedeassis.github.io/javaSE/#/62
+Slides 62 até o slide 67 POO Exercício 1 - carros - menos o 65
+
+
