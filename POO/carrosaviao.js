@@ -4,86 +4,84 @@
  * 
  */
 
+const colors = require('colors');
 
 class Carro {
-    constructor(ano,cor){
-        this.ano = ano
-        this.cor = cor
-    }
-    criarCarro(){
-        console.log("Carro criado!")
-        console.log(`Ano de fabricacao: ${this.ano}`)
-        console.log(`Cor do seu carango: ${this.cor}`)
-    }
-    ligar(){
-        console.log("Vrum vrum vrum, voce sente um ronco do motor!")
-    }
-    desligar(){
-        console.log("Seu carro vai ficar com raiva! Ele quer andar mais!")
-        console.log("Voce sente o carro parando e nenhum barulho do motor")
-
-    
-    }
-    acelerar(){
-        console.log("VRUMMMMMMMMM VRUMMMMMMMM VRUMMMMMMMM seu carango ta super veloz na pista!")
+    constructor(modelo, ano, cor) {
+        this.modelo = modelo;
+        this.ano = ano;
+        this.cor = cor;
     }
 
+    criarCarro() {
+        console.log("Carro criado!");
+        console.log(`Modelo do seu carro: ${this.modelo}`);
+        console.log(`Ano de fabricação: ${this.ano}`);
+        console.log(`Cor do seu carango: ${this.cor}`);
+    }
+
+    ligar() {
+        console.log("Vrum vrum vrum, você sente um ronco do motor!");
+    }
+
+    desligar() {
+        console.log("Seu carro vai ficar com raiva! Ele quer andar mais!");
+        console.log("Você sente o carro parando e nenhum barulho do motor");
+    }
+
+    acelerar() {
+        console.log("VRUMMMMMMMMM VRUMMMMMMMM VRUMMMMMMMM seu carango tá super veloz na pista!");
+    }
 }
 
 class Aviao extends Carro {
-    constructor(ano, cor, envergadura){
-        super(ano, cor)
-        this.envergadura = envergadura
+    constructor(modelo, ano, cor, envergadura) {
+        super(modelo, ano, cor);
+        this.envergadura = envergadura;
     }
-    criarAviao(){
-        console.log("Aviao criado!")
-        console.log(`Ano de fabricacao: ${this.ano}`)
-        console.log(`Cor do seu aviao: ${this.cor}`)
-        console.log(`Envergadura do seu aviao: ${this.envergadura}`)
-    }
-    aterrizar(){
-        console.log("Seu aviao esta se preparando para pousar bem bom!")
 
+    criarAviao() {
+        console.log("Avião criado!");
+        console.log(`Modelo do seu avião: ${this.modelo}`);
+        console.log(`Ano de fabricação: ${this.ano}`);
+        console.log(`Cor do seu avião: ${this.cor}`);
+        console.log(`Envergadura do seu avião: ${this.envergadura}`);
     }
-    acelerar(){
-        console.log("Seu aviao esta ficando mais veloz como a luz!")
+
+    aterrizar() {
+        console.log("Seu avião está se preparando para pousar bem bom!");
     }
-    desligar(){
-        console.log("Seu aviao esta caindo naoooo, aterrizar primeiro seria melhor!!!")
+
+    acelerar() {
+        console.log("Seu avião está ficando mais veloz como a luz!");
     }
-    ligar(){
-        console.log("Vrum vrum vrum de aviao agora, ele esta se preprando para partir!")
+
+    desligar() {
+        console.log("Seu avião está caindo! Aterrizar primeiro seria melhor!!!");
+    }
+
+    ligar() {
+        console.log("Vrum vrum vrum de avião agora, ele está se preparando para partir!");
     }
 }
 
+console.clear();
+console.log("Bem-vindo ao mundo carango!".bold);
 
+const carro1 = new Carro("ferrari", 1984, "vermelho".red);
+console.log("--------------------");
+carro1.criarCarro();
+carro1.ligar();
+carro1.acelerar();
+carro1.desligar();
 
+const carro2 = new Carro("fusca", 1999, "amarelo".yellow);
+console.log("--------------------");
+carro2.criarCarro();
 
-
-
-
-
-
-
-
-
-
-
-
-
-console.clear()
-console.log("Bem-vindo ao mundo carango!")
-
-const carro1 = new Carro(1984, "branco")
-carro1.criarCarro()
-carro1.ligar()
-carro1.acelerar()
-carro1.desligar()
-const carro2 = new Carro(1999, "amarelo")
-carro2.criarCarro()
-
-const aviao1 = new Aviao(2007, "amarelo", 11)
-aviao1.criarAviao()
-aviao1.ligar()
-aviao1.acelerar()
-aviao1.desligar()
+const aviao1 = new Aviao("Boeing", 2007, "azul".blue, 11);
+console.log("--------------------");
+aviao1.criarAviao();
+aviao1.ligar();
+aviao1.acelerar();
+aviao1.desligar();
